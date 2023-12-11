@@ -1,0 +1,30 @@
+body{
+margin: 0;
+padding: 35px;
+background-image: url(../img/primer-plano-loro-colorido-grandes-hojas-verdes.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+header{
+    padding: 30px;
+    color: rgb(2, 60, 107);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100;
+}
+.card{
+    text-align: center;
+    margin: 25px;
+    padding: 15px;
+    padding-left: 15px;
+    border-radius: 25px;
+    background-color: rgba(221, 219, 219, 0.758);
+    border: none;
+    backdrop-filter: blur(15px);
+    
+}

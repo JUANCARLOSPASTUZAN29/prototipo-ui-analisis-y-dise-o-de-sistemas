@@ -1,0 +1,16 @@
+body{
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Login{
+    color: rgb(4, 47, 69);
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.83);
+    padding: 15px;
+    margin: 250px;
+    border: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+}

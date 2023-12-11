@@ -1,0 +1,55 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/flor-tropical-exotica-cuenta-vibrantes-petalos-multicolores-generados-ia.jpg);
+  }
+  
+  
+  header{
+      padding: 45px;
+      text-align: center;
+        background-color: rgba(0, 0, 0, 0.559);
+      color: aliceblue;
+      background-repeat: no-repeat;
+      background-size: contain;
+     
+      
+  }
+  .nav-link{
+      background-color: aliceblue;
+      padding: 10px;
+      text-align: right;
+      color: black;
+  
+  }
+  .col{
+      padding: 15px;
+      text-align: center;
+      background-color: rgba(200, 227, 28, 0.806);
+      border-radius: 15px;
+      margin: 25px;
+      animation-duration: 5s;
+      animation-name: slidein;
+  }
+  .col:hover{
+      color: rgb(245, 245, 245);
+      background-color: rgb(213, 213, 213);
+  }
+  @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+  .nav-link{
+      border-radius: 25px;
+  }
+  .nav-link:hover{
+    background-image: url(../img/pila-papel-colores-vibrantes-despierta-imaginacion-creatividad-infancia-interior-generada-ia.jpg);
+  }

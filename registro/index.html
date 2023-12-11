@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="estilos/inicio.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+ <div>
+
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col"></div>
+    <div class="col">  <h1>Registro</h1>
+      <div class="d-none d-sm-block register">
+        
+       <div class="Registro">
+        <form action="register.php" method="post">
+                   <div class="mb-3 Register" >
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text"
+                        class="form-control"id="nombre" aria-describedby="helpId" placeholder="ingresa tu nombre" name="nombre" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="apellidos" class="form-label">Apellidos</label>
+                      <input type="text" required
+                        class="form-control"  id="apellidos" aria-describedby="helpId" placeholder="ingresa tus apellidos" name="apellido" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="" class="form-label">Usuario</label>
+                      <input type="text"
+                        class="form-control" id="usuario" required aria-describedby="helpId" placeholder="ingresa un usuario" name="usuario" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="id" class="form-label">Identificacion</label>
+                      <input type="number"
+                        class="form-control"  id="id" aria-describedby="helpId" placeholder="documento"  name="document" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="naciemiento" class="form-label">Fecha de nacimientos</label>
+                      <input type="date"
+                        class="form-control"id="fnacimiento" aria-describedby="helpId" placeholder=""name="nacimiento" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="edad" class="form-label">Edad</label>
+                      <input type="number"
+                        class="form-control" id="edad" aria-describedby="helpId" placeholder="ingresa tu edad" name="edad" required >
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="contra" class="form-label">contraseña</label>
+                      <input type="password"
+                        class="form-control"  id="contra" aria-describedby="helpId" placeholder="ingrese su contraseña"name="contra" required>
+                      <small id="helpId" class="form-text text-muted"></small>
+
+                    </div>
+                    <div class="mb-3">
+                      <label for="contracom" class="form-label">confirmar contraseña</label>
+                      <input type="password"
+                        class="form-control" name="" id="confirmar" aria-describedby="helpId" placeholder="Confrimar">
+                      <small id="helpId" class="form-text text-muted"></small>
+                      </div>
+                    <input type="submit" value="Registrar" class="btn btn-primary" role="button">
+      </form>
+        <a name="" id="" class="btn btn-primary" href="../log/index.html" role="button">Login</a>
+       </div>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+ </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

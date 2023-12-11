@@ -1,0 +1,20 @@
+body{
+  background-image: url(../imagenes/5361124.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+.Registro{
+background-color: rgba(0, 0, 0, 0.949);
+padding: 15px;
+border-radius: 25px;
+
+}
+.d-none d-sm-block{
+    background-color: rgb(12, 12, 12);
+}
